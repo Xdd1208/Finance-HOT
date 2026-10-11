@@ -1,0 +1,325 @@
+{
+  "groups": [
+    {
+      "key": "company",
+      "name": "机构与事务所",
+      "blurb": "按交易所、监管机构与会计师事务所追踪"
+    },
+    {
+      "key": "field",
+      "name": "业务方向",
+      "blurb": "按议题深挖：IPO 审核、审计失败、并购重组、货币政策……"
+    },
+    {
+      "key": "genre",
+      "name": "内容形态",
+      "blurb": "按内容类型浏览：IPO、监管处罚、审计、行情、政策……"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "csrc",
+      "name": "中国证监会",
+      "group": "company",
+      "entityId": "csrc",
+      "definition": "证监会的全部动态：发行监管口径、行政处罚与立案调查、制度与规则修订、新闻发布会与答记者问。"
+    },
+    {
+      "slug": "sse",
+      "name": "上海证券交易所",
+      "group": "company",
+      "entityId": "sse",
+      "definition": "上交所的动态：科创板 IPO 受理与审核、上市委会议、纪律处分与监管措施、市场制度与业务规则调整。"
+    },
+    {
+      "slug": "szse",
+      "name": "深圳证券交易所",
+      "group": "company",
+      "entityId": "szse",
+      "definition": "深交所的动态：创业板与主板 IPO 受理与审核、上市委会议、纪律处分与监管措施、市场制度调整。"
+    },
+    {
+      "slug": "bse",
+      "name": "北京证券交易所",
+      "group": "company",
+      "entityId": "bse",
+      "definition": "北交所的动态：IPO 受理与审核、上市委会议、直联机制与新三板创新层衔接、交易与做市制度、监管处罚。"
+    },
+    {
+      "slug": "cicpa",
+      "name": "中国注册会计师协会",
+      "group": "company",
+      "entityId": "cicpa",
+      "definition": "中注协与行业管理：审计准则与执业规范、执业质量检查、事务所综合评价与排名、继续教育与行业协会动态。"
+    },
+    {
+      "slug": "pbc",
+      "name": "中国人民银行",
+      "group": "company",
+      "entityId": "pbc",
+      "definition": "央行的政策与操作：利率与存款准备金率、公开市场操作与流动性、金融数据与社融、汇率与跨境资金管理。"
+    },
+    {
+      "slug": "pwc",
+      "name": "普华永道",
+      "group": "company",
+      "entityId": "pwc",
+      "definition": "普华永道（PwC）的动态：涉及它的审计失败与处罚、事务所业务调整与人事、行业研究与观点。"
+    },
+    {
+      "slug": "deloitte",
+      "name": "德勤",
+      "group": "company",
+      "entityId": "deloitte",
+      "definition": "德勤（Deloitte）的动态：审计与咨询业务、处罚与诉讼、人事与组织变动、行业报告与观点。"
+    },
+    {
+      "slug": "ey",
+      "name": "安永",
+      "group": "company",
+      "entityId": "ey",
+      "definition": "安永（EY）的动态：审计与咨询业务、处罚与诉讼、组织架构调整、行业报告与观点。"
+    },
+    {
+      "slug": "kpmg",
+      "name": "毕马威",
+      "group": "company",
+      "entityId": "kpmg",
+      "definition": "毕马威（KPMG）的动态：审计与咨询业务、处罚与诉讼、人事与组织变动、行业报告与观点。"
+    },
+    {
+      "slug": "bdo",
+      "name": "立信会计师事务所",
+      "group": "company",
+      "entityId": "bdo",
+      "definition": "立信会计师事务所的动态：承接的 IPO 与上市公司审计、执业质量检查与处罚、事务所组织与人事变动。"
+    },
+    {
+      "slug": "panchina",
+      "name": "天健会计师事务所",
+      "group": "company",
+      "entityId": "panchina",
+      "definition": "天健会计师事务所的动态：承接的 IPO 与上市公司审计、执业质量检查与处罚、事务所组织与人事变动。"
+    },
+    {
+      "slug": "ipo-review",
+      "name": "IPO 审核与问询",
+      "group": "field",
+      "tags": [
+        "IPO问询"
+      ],
+      "definition": "IPO 审核一线：受理与问询函、回复与现场检查、上会与注册结果、终止撤回与撤单，以及问询关注的核心问题。"
+    },
+    {
+      "slug": "bse-listing",
+      "name": "北交所上市",
+      "group": "field",
+      "tags": [
+        "北交所"
+      ],
+      "definition": "北交所的上市与交易：直联审核机制、新三板创新层到北交所的路径、流动性与估值、做市与转板动态。"
+    },
+    {
+      "slug": "star-market",
+      "name": "科创板",
+      "group": "field",
+      "tags": [
+        "科创板"
+      ],
+      "definition": "科创板动态：硬科技企业的 IPO 与再融资审核、第五套标准与未盈利企业上市、板块制度与估值变化。"
+    },
+    {
+      "slug": "chinext",
+      "name": "创业板",
+      "group": "field",
+      "tags": [
+        "创业板"
+      ],
+      "definition": "创业板动态：成长型创新创业企业的 IPO 与再融资、审核口径变化、板块估值与成交结构。"
+    },
+    {
+      "slug": "audit-failure",
+      "name": "审计失败与追责",
+      "group": "field",
+      "tags": [
+        "审计失败",
+        "财务造假"
+      ],
+      "definition": "财务造假与审计失败的案件与追责：被处罚的会计师事务所与签字注册会计师、造假手法与识别线索、民事赔偿与投资者诉讼。"
+    },
+    {
+      "slug": "accounting-standards",
+      "name": "会计准则",
+      "group": "field",
+      "tags": [
+        "会计准则"
+      ],
+      "definition": "会计准则与财务报告规则：准则修订与解释、会计政策与估计变更、收入与合并等难点问题的实务口径。"
+    },
+    {
+      "slug": "internal-control",
+      "name": "内控与舞弊识别",
+      "group": "field",
+      "tags": [
+        "内控",
+        "舞弊识别"
+      ],
+      "definition": "内部控制与舞弊识别：内控评价与审计意见、资金占用与担保违规、财务异常的识别线索与方法。"
+    },
+    {
+      "slug": "ma-restructuring",
+      "name": "并购重组",
+      "group": "field",
+      "tags": [
+        "并购重组"
+      ],
+      "definition": "并购重组市场：重大资产重组的审核与问询、并购基金与产业整合、商誉与业绩承诺的后续处理。"
+    },
+    {
+      "slug": "delisting",
+      "name": "退市与风险警示",
+      "group": "field",
+      "tags": [
+        "退市"
+      ],
+      "definition": "退市制度与实践：退市决定与风险警示、财务类与规范类退市指标、退市整理期与投资者保护。"
+    },
+    {
+      "slug": "brokers",
+      "name": "券商动态",
+      "group": "field",
+      "tags": [
+        "券商"
+      ],
+      "definition": "证券公司的动态：投行业务与保荐责任、经纪与自营格局、处罚与执业质量、合并整合与人事变动。"
+    },
+    {
+      "slug": "funds",
+      "name": "公募与私募",
+      "group": "field",
+      "tags": [
+        "公募基金",
+        "私募/创投"
+      ],
+      "definition": "资管机构动态：公募基金发行与规模变化、私募与创投的募投管退、监管处罚与行业格局。"
+    },
+    {
+      "slug": "monetary-policy",
+      "name": "货币政策",
+      "group": "field",
+      "tags": [
+        "货币政策"
+      ],
+      "definition": "货币政策与流动性：降息降准、LPR 与 MLF、公开市场操作、社融与信贷数据，以及市场对政策的解读。"
+    },
+    {
+      "slug": "fx-commodity",
+      "name": "汇率与大宗商品",
+      "group": "field",
+      "tags": [
+        "汇率",
+        "大宗商品"
+      ],
+      "definition": "汇率与大宗商品：人民币汇率与跨境资金、原油与贵金属、工业品价格对行业和上市公司的影响。"
+    },
+    {
+      "slug": "realestate",
+      "name": "房地产",
+      "group": "field",
+      "tags": [
+        "房地产"
+      ],
+      "definition": "房地产与地产链：房企债务与融资、销售与土地市场、政策调整及对相关行业与报表的影响。"
+    },
+    {
+      "slug": "bank-insurance",
+      "name": "银行与保险",
+      "group": "field",
+      "tags": [
+        "银行保险"
+      ],
+      "definition": "银行与保险业动态：资产质量与不良处置、息差与利润、保险资金运用、监管处罚与业务转型。"
+    },
+    {
+      "slug": "tech-stocks",
+      "name": "科技股",
+      "group": "field",
+      "tags": [
+        "科技股"
+      ],
+      "definition": "科技板块的资本动态：半导体、AI 算力、新能源等板块的业绩、估值、融资与产业政策。"
+    },
+    {
+      "slug": "ipo-tracker",
+      "name": "IPO 与上市",
+      "group": "genre",
+      "tags": [
+        "IPO/上市"
+      ],
+      "definition": "企业从受理到挂牌的全流程记录：谁是新的发行人、问到什么、结果如何。"
+    },
+    {
+      "slug": "penalties",
+      "name": "监管与处罚",
+      "group": "genre",
+      "tags": [
+        "监管/处罚"
+      ],
+      "definition": "监管出手的每一次落点：罚单、处分、立案与禁入，以及它对机构和个人的后果。"
+    },
+    {
+      "slug": "audit-genre",
+      "name": "审计与财务",
+      "group": "genre",
+      "tags": [
+        "审计/财务"
+      ],
+      "definition": "审计执业与财务报告本身：准则、程序、会计处理与财报质量。"
+    },
+    {
+      "slug": "market-genre",
+      "name": "市场行情",
+      "group": "genre",
+      "tags": [
+        "市场/行情"
+      ],
+      "definition": "价格、资金与情绪：指数与板块、资金流向与成交结构、市场对信息的反应。"
+    },
+    {
+      "slug": "company-genre",
+      "name": "公司与产业",
+      "group": "genre",
+      "tags": [
+        "公司/产业"
+      ],
+      "definition": "企业与产业的经营脉搏：业绩、并购、人事、诉讼与竞争格局。"
+    },
+    {
+      "slug": "macro-genre",
+      "name": "宏观与政策",
+      "group": "genre",
+      "tags": [
+        "宏观/政策"
+      ],
+      "definition": "经济与制度环境：货币政策、财政与产业政策、经济数据与海外宏观。"
+    },
+    {
+      "slug": "opinion-genre",
+      "name": "观点与解读",
+      "group": "genre",
+      "tags": [
+        "观点/解读"
+      ],
+      "definition": "从业者与分析师在想什么：对政策、市场与行业的判断、预测与争论。"
+    },
+    {
+      "slug": "practice-genre",
+      "name": "实务与方法",
+      "group": "genre",
+      "tags": [
+        "实务/方法"
+      ],
+      "definition": "可以直接上手的做法：审计与财务实务、财报分析框架、数据处理与工具。"
+    }
+  ]
+}
